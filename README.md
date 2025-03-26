@@ -36,6 +36,10 @@ Hyperparameters  were used for all classifiers to evaluate training time and acc
 
 Plots: correlation heatmap of numeric columns, histogram and box plots for numerical and categorical column distribution, Target variable distribution , Model comparison
 
+**Next Steps**
+Enhance Model using hyperparameter tuning, over or under sampling and pruning to improve precision and recall and manage overfitting.
+
+
 **Conclusion:**
 Random Forest classifier and KNN has the highest training accuracy but shows some drop-off in test performance, possibly indicating overfitting.
 
