@@ -25,11 +25,14 @@ For high recall (i.e., detecting positive cases), SVM and Logistic Regression ha
 **Notebook Highlights**
 Exploratory Data Analysis was performed to categorize and encode categorical and numerical data.
 Dataset was split into Train and Test data for model prediction , propotional distribution between full , train and test data were compared
+
 Baseline accuracy prediction of 80% indicated that 80% of customers have not subscribed for term deposit when data set was not balanced
 Balancing the dataset using SMOTE indicated 50% of baseline accuracy
+
 Model comparison : Performance of the Logistic Regression model to KNN algorithm, Decision Tree, SVM models and Random Forest models were performed.
 Hyperparameter tuning and cross-validation was performed to optimize and generalize models.
 Hyperparameters  were used for all classifiers to evaluate training time and accuracy on training and test datasets.
+
 Plots: correlation heatmap of numeric columns, histogram and box plots for numerical and categorical column distribution, Target variable distribution , Model comparison
 
 **Conclusion:**
