@@ -16,6 +16,7 @@ telemarketing campaigns, save resources, and increase the overall success rate o
 **Baseline Accuracy**
  Before Balancing : 80% of subscribers did not subscribe to a term deposit (target variable)
  After Balancing : 50% of subscribers did not subscribe to a term deposit (target variable)
+ 
 **Best Performing Model:** 
 For better generalization,Logistic Regression and SVM appear to be the most balanced models with moderate overfitting. These models have reasonable test performance and can be good choices for generalizing well to unseen data.
 For better model interpretability,Logistic Regression is often favored because it is interpretable and easier to understand compared to models like SVM and Random Forest.
@@ -37,6 +38,9 @@ Plots: correlation heatmap of numeric columns, histogram and box plots for numer
 
 **Conclusion:**
 Random Forest classifier and KNN has the highest training accuracy but shows some drop-off in test performance, possibly indicating overfitting.
+
 Random Forest and SVM has highest test accuracy but a longer fit time, making it less practical for large datasets.
+
 Decision Tree has high accuracy and very fast training time, but may suffer from overfitting due to the difference in train and test accuracy.
+
 Overall Logistic Regression is relatively fast with decent performance in both train and test sets and is more suited for faster, less complex problems.
