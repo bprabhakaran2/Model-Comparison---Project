@@ -10,8 +10,7 @@ The objective of this analysis is to predict whether a client will subscribe to 
 economic attributes.
 
 By building a predictive model, the bank can focus its marketing efforts on clients who are most likely to respond positively. This will help improve the efficiency of 
-telemarketing campaigns, save resources, and increase the overall success rate of term deposit subscriptions. The task also aims to identify the key factors that influence a 
-client’s decision to subscribe.
+telemarketing campaigns, save resources, and increase the overall success rate of term deposit subscriptions. The task also aims to identify the key factors that influence a client’s decision to subscribe.
 
 **Summary of Findings:**
 **Baseline Accuracy**
@@ -33,7 +32,7 @@ Hyperparameter tuning and cross-validation was performed to optimize and general
 Hyperparameters  were used for all classifiers to evaluate training time and accuracy on training and test datasets.
 Plots: correlation heatmap of numeric columns, histogram and box plots for numerical and categorical column distribution, Target variable distribution , Model comparison
 
-**Conslusion:**
+**Conclusion:**
 Random Forest classifier and KNN has the highest training accuracy but shows some drop-off in test performance, possibly indicating overfitting.
 Random Forest and SVM has highest test accuracy but a longer fit time, making it less practical for large datasets.
 Decision Tree has high accuracy and very fast training time, but may suffer from overfitting due to the difference in train and test accuracy.
